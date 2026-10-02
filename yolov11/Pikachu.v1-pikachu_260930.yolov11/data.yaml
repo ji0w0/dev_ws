@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Pikachu']
+
+roboflow:
+  workspace: sesac-ya4ua
+  project: pikachu-kpkos
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sesac-ya4ua/pikachu-kpkos/dataset/1

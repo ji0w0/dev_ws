@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Caculator.ui</file>
+    </qresource>
+</RCC>

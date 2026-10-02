@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "/home/jiu/dev_ws/qt",
+    "cmake.debugConfig": {
+        "cwd": "/home/jiu/dev_ws/qt/src"
+    }
+}

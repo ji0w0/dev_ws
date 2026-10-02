@@ -1,0 +1,5 @@
+/home/jiu/dev_ws/qt/build/CMakeFiles/opencv.dir
+/home/jiu/dev_ws/qt/build/CMakeFiles/edit_cache.dir
+/home/jiu/dev_ws/qt/build/CMakeFiles/rebuild_cache.dir
+/home/jiu/dev_ws/qt/build/CMakeFiles/opencv_autogen_timestamp_deps.dir
+/home/jiu/dev_ws/qt/build/CMakeFiles/opencv_autogen.dir
