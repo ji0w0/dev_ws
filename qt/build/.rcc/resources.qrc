@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="Caculator.ui">/home/jiu/dev_ws/qt/src/calculator/Caculator.ui</file>
-  </qresource>
-</RCC>
-

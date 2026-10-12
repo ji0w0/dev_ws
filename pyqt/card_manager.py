@@ -15,8 +15,8 @@ class WindowClass(QMainWindow, from_class) :
 
         self.uid = bytes(4)
         self.conn = serial.Serial(port='/dev/ttyACM0', baudrate=9600, timeout=1)
-        self.recv = Receiver(self.conn)
-        self.recv.start() # 스레드 시작
+        self.recv = Receiver(self.conn) # 수신 전용 백그라운드 스레드
+        self.recv.start()
 
         self.recv.detected.connect(self.detected)
         self.recv.recvTotal.connect(self.recvTotal)
@@ -35,6 +35,7 @@ class WindowClass(QMainWindow, from_class) :
         self.timer.start()
 
 
+    # ---------- UI 활성화 / 비활성화 ----------
     def enable(self, total):
         self.totalLabel.setText(str(total))
         self.chargeEdit.setDisabled(False)
@@ -50,6 +51,7 @@ class WindowClass(QMainWindow, from_class) :
         self.paymentEdit.setDisabled(True)
         self.paymentButton.setDisabled(True)
 
+    # ---------- 버튼 핸들러 ----------
     def reset(self):
         print("reset")
         self.setTotal(0)
@@ -62,20 +64,34 @@ class WindowClass(QMainWindow, from_class) :
     def payment(self):
         print("payment")
         return
-    
+
+    # ---------- 시리얼 송신 ----------
     def send(self, command, data=0):
         print('[DEBUG] send')
         # struct와 형태가 일치하는 11bytes 고정 크기의 이진 패킷으로 압축 (< : 리틀 엔디언)
-        req_data = struct.pack('<2s4sic', command, self.uid, data, b'\n') # 명령어 2bytes + 카드 UID 4bytes + 충전/결제 금액 등 4bytes + 개행 문자 1byte
+         # 명령어 2bytes + 카드 UID 4bytes + 충전/결제 금액 등 4bytes + 개행 문자 1byte
+        req_data = struct.pack('<2s4sic', command, self.uid, data, b'\n')
         self.conn.write(req_data); # 전송
         return 
 
+    # ---------- 명령어 (송신) ----------
     def getStatus(self): # 명령어 GS
         print("[COMMAND] getStatus")
         self.send(b'GS')
         return
 
-    def detected(self, uid): # tag detected
+    def getTotal(self): # 명령어 GT
+        print("[COMMAND] getTotal")
+        self.send(b'GT')
+        return
+
+    def setTotal(self, total): # 명령어 ST
+        print("[COMMAND] setTotal")
+        self.send(b'ST', total)
+        return
+
+    # ---------- 시그널 슬롯 (수신 스레드에서 호출됨) ----------
+    def detected(self, uid): # 태그가 인식 되었을 때 (GS)
         print('[SIGNAL] detected')
         self.uid = uid
         self.timer.stop()
@@ -84,28 +100,21 @@ class WindowClass(QMainWindow, from_class) :
         self.getTotal()
         self.resetButton.setDisabled(False)
         return
-
-    def getTotal(self): # 명령어 GT
-        print("[COMMAND] getTotal")
-        self.send(b'GT')
-        return
-
-    def recvTotal(self, total):
+    
+    def recvTotal(self, total): # 잔액 값을 받았을 때 (GT)
         print('[SIGNAL] recvTotal')
         self.enable(total)
         self.chargeEdit.setText('')
         self.paymentEdit.setText('')
-
-    def setTotal(self, total): # 명령어 ST
-        print("[COMMAND] setTotal")
-        self.send(b'ST', total)
-        return
-
-    def changedTotal(self):
+    
+    def changedTotal(self): # 잔액이 변경 되었을 때 (ST)
         self.getTotal()
         return
 
-class Receiver(QThread): # 백그라운드 수신 스레드
+# ============================================================
+# 수신 스레드: 시리얼로 들어오는 응답을 계속 읽어서 시그널로 전달
+# ============================================================
+class Receiver(QThread):
     detected = pyqtSignal(bytes)
     recvTotal = pyqtSignal(int)
     changedTotal = pyqtSignal()
@@ -128,16 +137,6 @@ class Receiver(QThread): # 백그라운드 수신 스레드
                     if cmd == 'GS' and res[2] == 0: # Get Status 수신
                         print('[DEBUG] recv detected')
                         self.detected.emit(res[3:])
-                        #######################
-                    elif cmd == 'GS':
-                        if res[2] == 0:
-                            print('recv detected')
-                            self.detected.emit(res[3:])
-                        elif res[2] == 0xFA:
-                            print('[INFO] 카드가 감지되지 않음 (태그 대기 중...)')
-                        else:
-                            print(f'[ERROR] 기타 오류 상태 코드: {hex(res[2])}')
-                        #######################
                     elif cmd == 'GT' and res[2] == 0: # Get Total 수신
                         print('recvTotal')
                         print(len(res))

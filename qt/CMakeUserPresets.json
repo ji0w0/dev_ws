@@ -5,7 +5,7 @@
       "name": "default",
       "displayName": "Default Config",
       "generator": "Ninja",
-      "binaryDir": "/home/jiu/dev_ws/qt/build",
+      "binaryDir": "/home/jiu/Git-projects/dev_ws/qt/build",
       "cacheVariables": {
         "CMAKE_PREFIX_PATH": "/home/jiu/Qt/6.7.0/gcc_64",
         "CMAKE_BUILD_TYPE": "Debug"

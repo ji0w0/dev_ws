@@ -1,20 +1,20 @@
 [
 {
-  "directory": "/home/jiu/dev_ws/qt/build",
-  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_UITOOLS_LIB -DQT_WIDGETS_LIB -I/home/jiu/dev_ws/qt/build/opencv_autogen/include -isystem /usr/include/opencv4 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtUiTools -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGLWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGL -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -g -std=gnu++17 -fPIC -o CMakeFiles/opencv.dir/opencv_autogen/mocs_compilation.cpp.o -c /home/jiu/dev_ws/qt/build/opencv_autogen/mocs_compilation.cpp",
-  "file": "/home/jiu/dev_ws/qt/build/opencv_autogen/mocs_compilation.cpp",
-  "output": "CMakeFiles/opencv.dir/opencv_autogen/mocs_compilation.cpp.o"
+  "directory": "/home/jiu/Git-projects/dev_ws/qt/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/jiu/Git-projects/dev_ws/qt/build/TCPClient_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -g -std=gnu++17 -fPIC -o CMakeFiles/TCPClient.dir/TCPClient_autogen/mocs_compilation.cpp.o -c /home/jiu/Git-projects/dev_ws/qt/build/TCPClient_autogen/mocs_compilation.cpp",
+  "file": "/home/jiu/Git-projects/dev_ws/qt/build/TCPClient_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/TCPClient.dir/TCPClient_autogen/mocs_compilation.cpp.o"
 },
 {
-  "directory": "/home/jiu/dev_ws/qt/build",
-  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_UITOOLS_LIB -DQT_WIDGETS_LIB -I/home/jiu/dev_ws/qt/build/opencv_autogen/include -isystem /usr/include/opencv4 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtUiTools -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGLWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGL -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -g -std=gnu++17 -fPIC -o CMakeFiles/opencv.dir/src/opencv.cpp.o -c /home/jiu/dev_ws/qt/src/opencv.cpp",
-  "file": "/home/jiu/dev_ws/qt/src/opencv.cpp",
-  "output": "CMakeFiles/opencv.dir/src/opencv.cpp.o"
+  "directory": "/home/jiu/Git-projects/dev_ws/qt/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/jiu/Git-projects/dev_ws/qt/build/TCPClient_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -g -std=gnu++17 -fPIC -o CMakeFiles/TCPClient.dir/src/main.cpp.o -c /home/jiu/Git-projects/dev_ws/qt/src/main.cpp",
+  "file": "/home/jiu/Git-projects/dev_ws/qt/src/main.cpp",
+  "output": "CMakeFiles/TCPClient.dir/src/main.cpp.o"
 },
 {
-  "directory": "/home/jiu/dev_ws/qt/build",
-  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_UITOOLS_LIB -DQT_WIDGETS_LIB -I/home/jiu/dev_ws/qt/build/opencv_autogen/include -isystem /usr/include/opencv4 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtUiTools -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGLWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGL -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -g -std=gnu++17 -fPIC -o CMakeFiles/opencv.dir/src/MyTimer.cpp.o -c /home/jiu/dev_ws/qt/src/MyTimer.cpp",
-  "file": "/home/jiu/dev_ws/qt/src/MyTimer.cpp",
-  "output": "CMakeFiles/opencv.dir/src/MyTimer.cpp.o"
+  "directory": "/home/jiu/Git-projects/dev_ws/qt/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/jiu/Git-projects/dev_ws/qt/build/TCPClient_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -g -std=gnu++17 -fPIC -o CMakeFiles/TCPClient.dir/src/TCPClient.cpp.o -c /home/jiu/Git-projects/dev_ws/qt/src/TCPClient.cpp",
+  "file": "/home/jiu/Git-projects/dev_ws/qt/src/TCPClient.cpp",
+  "output": "CMakeFiles/TCPClient.dir/src/TCPClient.cpp.o"
 }
 ]
