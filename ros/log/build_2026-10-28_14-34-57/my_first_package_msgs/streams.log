@@ -1,0 +1,338 @@
+[0.160s] Invoking command in '/home/jiu/Git-projects/dev_ws/ros/build/my_first_package_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiu/Git-projects/dev_ws/ros/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/jiu/Git-projects/dev_ws/ros/build/my_first_package_msgs -- -j20 -l20
+[0.178s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.257s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.259s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.281s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.301s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.540s] -- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.615s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.712s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.713s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[0.914s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[0.951s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.952s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.962s] -- Added test 'lint_cmake' to check CMake code style
+[0.963s] -- Added test 'xmllint' to check XML markup files
+[0.965s] -- Configuring done (0.8s)
+[0.997s] -- Generating done (0.0s)
+[1.006s] -- Build files have been written to: /home/jiu/Git-projects/dev_ws/ros/build/my_first_package_msgs
+[1.037s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.037s] [  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.042s] [  3%] Built target ament_cmake_python_copy_my_first_package_msgs
+[1.203s] [  3%] Built target my_first_package_msgs__rosidl_generator_type_description
+[1.204s] running egg_info
+[1.211s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.220s] writing my_first_package_msgs.egg-info/PKG-INFO
+[1.220s] [  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.220s] writing dependency_links to my_first_package_msgs.egg-info/dependency_links.txt
+[1.220s] writing top-level names to my_first_package_msgs.egg-info/top_level.txt
+[1.246s] [  7%] Built target my_first_package_msgs__rs
+[1.265s] reading manifest file 'my_first_package_msgs.egg-info/SOURCES.txt'
+[1.266s] writing manifest file 'my_first_package_msgs.egg-info/SOURCES.txt'
+[1.288s] [  7%] Built target ament_cmake_python_build_my_first_package_msgs_egg
+[1.550s] [  7%] Built target my_first_package_msgs__cpp
+[1.586s] [  9%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_first_package_msgs/srv/detail/multi_spawn__description.c.o[0m
+[1.587s] [ 10%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_first_package_msgs/srv/detail/multi_spawn__functions.c.o[0m
+[1.587s] [ 12%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_first_package_msgs/srv/detail/multi_spawn__type_support.c.o[0m
+[1.587s] [ 14%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_first_package_msgs/action/detail/dist_turtle__description.c.o[0m
+[1.590s] [ 20%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_first_package_msgs/action/detail/dist_turtle__type_support.c.o[0m
+[1.590s] [ 20%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_first_package_msgs/msg/detail/cmd_and_pose_vel__functions.c.o[0m
+[1.590s] [ 21%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_first_package_msgs/msg/detail/cmd_and_pose_vel__description.c.o[0m
+[1.590s] [ 21%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.c.o[0m
+[1.591s] [ 23%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_first_package_msgs/action/detail/dist_turtle__functions.c.o[0m
+[1.702s] [ 25%] [32m[1mLinking C shared library libmy_first_package_msgs__rosidl_generator_c.so[0m
+[1.733s] [ 25%] Built target my_first_package_msgs__rosidl_generator_c
+[1.740s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.741s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.742s] [ 30%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.742s] [ 32%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.743s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.744s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.002s] [ 41%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_first_package_msgs/srv/multi_spawn__type_support.cpp.o[0m
+[2.002s] [ 41%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.o[0m
+[2.002s] [ 41%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_first_package_msgs/action/dist_turtle__type_support.cpp.o[0m
+[2.033s] [ 43%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_first_package_msgs/srv/detail/multi_spawn__type_support.cpp.o[0m
+[2.035s] [ 47%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_first_package_msgs/action/detail/dist_turtle__type_support.cpp.o[0m
+[2.035s] [ 47%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.cpp.o[0m
+[2.039s] [ 50%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp.o[0m
+[2.039s] [ 50%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.o[0m
+[2.041s] [ 52%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp.o[0m
+[2.073s] [ 54%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_first_package_msgs/action/detail/dist_turtle__type_support.c.o[0m
+[2.074s] [ 56%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_first_package_msgs/srv/detail/multi_spawn__type_support.c.o[0m
+[2.075s] [ 58%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.c.o[0m
+[2.092s] [ 60%] [32m[1mLinking CXX shared library libmy_first_package_msgs__rosidl_typesupport_c.so[0m
+[2.124s] [ 61%] [32m[1mLinking C shared library libmy_first_package_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.135s] [ 61%] Built target my_first_package_msgs__rosidl_typesupport_c
+[2.155s] [ 61%] Built target my_first_package_msgs__rosidl_typesupport_introspection_c
+[2.192s] [ 63%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_first_package_msgs/srv/detail/multi_spawn__type_support_c.cpp.o[0m
+[2.193s] [ 70%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_first_package_msgs/action/detail/dds_fastrtps/dist_turtle__type_support.cpp.o[0m
+[2.193s] [ 70%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_first_package_msgs/msg/detail/dds_fastrtps/cmd_and_pose_vel__type_support.cpp.o[0m
+[2.193s] [ 70%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_first_package_msgs/action/detail/dist_turtle__type_support_c.cpp.o[0m
+[2.194s] [ 70%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support_c.cpp.o[0m
+[2.194s] [ 72%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_first_package_msgs/srv/detail/dds_fastrtps/multi_spawn__type_support.cpp.o[0m
+[2.527s] [ 74%] [32m[1mLinking CXX shared library libmy_first_package_msgs__rosidl_typesupport_cpp.so[0m
+[2.585s] [ 74%] Built target my_first_package_msgs__rosidl_typesupport_cpp
+[2.592s] [ 76%] [32m[1mLinking CXX shared library libmy_first_package_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.628s] [ 76%] Built target my_first_package_msgs__rosidl_typesupport_fastrtps_c
+[2.738s] [ 78%] [32m[1mLinking CXX shared library libmy_first_package_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.796s] [ 78%] Built target my_first_package_msgs__rosidl_typesupport_introspection_cpp
+[2.887s] [ 80%] [32m[1mLinking CXX shared library libmy_first_package_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.946s] [ 80%] Built target my_first_package_msgs__rosidl_typesupport_fastrtps_cpp
+[2.960s] [ 80%] Built target my_first_package_msgs
+[2.977s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.513s] [ 81%] Built target my_first_package_msgs__py
+[3.534s] [ 83%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_py.dir/rosidl_generator_py/my_first_package_msgs/srv/_multi_spawn_s.c.o[0m
+[3.535s] [ 85%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_py.dir/rosidl_generator_py/my_first_package_msgs/msg/_cmd_and_pose_vel_s.c.o[0m
+[3.535s] [ 87%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_py.dir/rosidl_generator_py/my_first_package_msgs/action/_dist_turtle_s.c.o[0m
+[3.668s] [ 89%] [32m[1mLinking C shared library libmy_first_package_msgs__rosidl_generator_py.so[0m
+[3.708s] [ 89%] Built target my_first_package_msgs__rosidl_generator_py
+[3.729s] [ 90%] [32mBuilding C object CMakeFiles/my_first_package_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.729s] [ 92%] [32mBuilding C object CMakeFiles/my_first_package_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.729s] [ 94%] [32mBuilding C object CMakeFiles/my_first_package_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.816s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_c.so[0m
+[3.817s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[3.818s] [100%] [32m[1mLinking C shared module rosidl_generator_py/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[3.842s] [100%] Built target my_first_package_msgs_s__rosidl_typesupport_c
+[3.843s] [100%] Built target my_first_package_msgs_s__rosidl_typesupport_fastrtps_c
+[3.843s] [100%] Built target my_first_package_msgs_s__rosidl_typesupport_introspection_c
+[3.851s] Invoked command in '/home/jiu/Git-projects/dev_ws/ros/build/my_first_package_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiu/Git-projects/dev_ws/ros/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/jiu/Git-projects/dev_ws/ros/build/my_first_package_msgs -- -j20 -l20
+[3.857s] Invoking command in '/home/jiu/Git-projects/dev_ws/ros/build/my_first_package_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiu/Git-projects/dev_ws/ros/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --install /home/jiu/Git-projects/dev_ws/ros/build/my_first_package_msgs
+[3.862s] -- Install configuration: ""
+[3.862s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/ament_index/resource_index/rosidl_interfaces/my_first_package_msgs
+[3.862s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/msg/CmdAndPoseVel.json
+[3.862s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/srv/MultiSpawn.json
+[3.862s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/action/DistTurtle.json
+[3.862s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[3.862s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action
+[3.862s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail
+[3.862s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__functions.h
+[3.862s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__type_support.h
+[3.862s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__functions.c
+[3.863s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__description.c
+[3.863s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__struct.h
+[3.863s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__type_support.c
+[3.863s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/dist_turtle.h
+[3.863s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[3.863s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[3.863s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__type_support.c
+[3.863s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__functions.c
+[3.863s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__description.c
+[3.863s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__struct.h
+[3.863s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__type_support.h
+[3.863s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__functions.h
+[3.863s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/multi_spawn.h
+[3.863s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[3.863s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/cmd_and_pose_vel.h
+[3.863s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[3.863s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.h
+[3.863s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__description.c
+[3.863s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.c
+[3.863s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__functions.h
+[3.863s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__struct.h
+[3.864s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__functions.c
+[3.864s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.864s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/environment/library_path.sh
+[3.864s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/environment/library_path.dsv
+[3.864s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_generator_c.so
+[3.864s] -- Set non-toolchain portion of runtime path of "/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_generator_c.so" to ""
+[3.864s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[3.864s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action
+[3.864s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail
+[3.864s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__rosidl_typesupport_fastrtps_c.h
+[3.864s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[3.864s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[3.864s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_fastrtps_c.h
+[3.864s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[3.864s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[3.864s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_c.h
+[3.864s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.864s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_fastrtps_c.so
+[3.865s] -- Set non-toolchain portion of runtime path of "/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.865s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[3.865s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action
+[3.865s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail
+[3.865s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__rosidl_typesupport_introspection_c.h
+[3.865s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__type_support.c
+[3.865s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[3.865s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[3.865s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__type_support.c
+[3.865s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_introspection_c.h
+[3.865s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[3.865s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[3.865s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.c
+[3.865s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_c.h
+[3.865s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.865s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_introspection_c.so
+[3.865s] -- Set non-toolchain portion of runtime path of "/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_introspection_c.so" to ""
+[3.865s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_c.so
+[3.865s] -- Set non-toolchain portion of runtime path of "/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_c.so" to ""
+[3.865s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[3.866s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action
+[3.866s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail
+[3.866s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__type_support.hpp
+[3.866s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__struct.hpp
+[3.866s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__builder.hpp
+[3.866s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__traits.hpp
+[3.866s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/dist_turtle.hpp
+[3.866s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[3.866s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/multi_spawn.hpp
+[3.866s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[3.866s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__traits.hpp
+[3.866s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__builder.hpp
+[3.866s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__struct.hpp
+[3.866s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__type_support.hpp
+[3.866s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[3.866s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[3.866s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__struct.hpp
+[3.866s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__builder.hpp
+[3.866s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.hpp
+[3.866s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__traits.hpp
+[3.866s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.866s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/cmd_and_pose_vel.hpp
+[3.867s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[3.867s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action
+[3.867s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail
+[3.867s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dds_fastrtps
+[3.867s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__rosidl_typesupport_fastrtps_cpp.hpp
+[3.867s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[3.867s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[3.867s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/dds_fastrtps
+[3.867s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[3.867s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[3.867s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[3.867s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_cpp.hpp
+[3.867s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/dds_fastrtps
+[3.867s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.867s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.867s] -- Set non-toolchain portion of runtime path of "/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.867s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[3.867s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action
+[3.867s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail
+[3.867s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__type_support.cpp
+[3.867s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__rosidl_typesupport_introspection_cpp.hpp
+[3.868s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[3.868s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[3.868s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_introspection_cpp.hpp
+[3.868s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__type_support.cpp
+[3.868s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[3.868s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[3.868s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.cpp
+[3.868s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_cpp.hpp
+[3.868s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_introspection_cpp.so
+[3.868s] -- Set non-toolchain portion of runtime path of "/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.868s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_cpp.so
+[3.869s] -- Set non-toolchain portion of runtime path of "/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_cpp.so" to ""
+[3.869s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/environment/pythonpath.sh
+[3.869s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/environment/pythonpath.dsv
+[3.869s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs-0.0.0-py3.12.egg-info
+[3.869s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.869s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[3.869s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[3.869s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.869s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs
+[3.869s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_introspection_c.so
+[3.869s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/action
+[3.869s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/action/__init__.py
+[3.869s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/action/_dist_turtle_s.c
+[3.869s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/action/_dist_turtle.py
+[3.869s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.869s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/__init__.py
+[3.869s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_c.c
+[3.869s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/srv
+[3.869s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/srv/_multi_spawn.py
+[3.870s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/srv/__init__.py
+[3.870s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/srv/_multi_spawn_s.c
+[3.870s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/msg
+[3.870s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/msg/__init__.py
+[3.870s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/msg/_cmd_and_pose_vel.py
+[3.870s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/msg/_cmd_and_pose_vel_s.c
+[3.870s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.870s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_c.so
+[3.870s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_fastrtps_c.so
+[3.908s] Listing '/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs'...
+[3.908s] Compiling '/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/__init__.py'...
+[3.908s] Listing '/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/action'...
+[3.908s] Compiling '/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/action/__init__.py'...
+[3.908s] Compiling '/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/action/_dist_turtle.py'...
+[3.908s] Listing '/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/msg'...
+[3.908s] Compiling '/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/msg/__init__.py'...
+[3.909s] Compiling '/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/msg/_cmd_and_pose_vel.py'...
+[3.909s] Listing '/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/srv'...
+[3.909s] Compiling '/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/srv/__init__.py'...
+[3.909s] Compiling '/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/srv/_multi_spawn.py'...
+[3.913s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_fastrtps_c.so
+[3.913s] -- Set non-toolchain portion of runtime path of "/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[3.913s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_introspection_c.so
+[3.913s] -- Set non-toolchain portion of runtime path of "/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[3.913s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_c.so
+[3.913s] -- Set non-toolchain portion of runtime path of "/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_c.so" to ""
+[3.913s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_generator_py.so
+[3.914s] -- Set non-toolchain portion of runtime path of "/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_generator_py.so" to ""
+[3.914s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust
+[3.914s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/Cargo.toml
+[3.914s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/src
+[3.914s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/src/action
+[3.914s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/src/action/rmw.rs
+[3.914s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/src/msg.rs
+[3.914s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/src/srv
+[3.914s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/src/srv/rmw.rs
+[3.914s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/src/lib.rs
+[3.914s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/src/msg
+[3.914s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/src/msg/rmw.rs
+[3.915s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/src/action.rs
+[3.915s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/src/srv.rs
+[3.915s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/rust/build.rs
+[3.915s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/msg/CmdAndPoseVel.idl
+[3.915s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/srv/MultiSpawn.idl
+[3.915s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/action/DistTurtle.idl
+[3.915s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/msg/CmdAndPoseVel.msg
+[3.915s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/srv/MultiSpawn.srv
+[3.915s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/action/DistTurtle.action
+[3.915s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/ament_index/resource_index/package_run_dependencies/my_first_package_msgs
+[3.915s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/ament_index/resource_index/parent_prefix_path/my_first_package_msgs
+[3.915s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/environment/ament_prefix_path.sh
+[3.915s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/environment/ament_prefix_path.dsv
+[3.915s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/environment/path.sh
+[3.915s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/environment/path.dsv
+[3.915s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.bash
+[3.915s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.sh
+[3.916s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.zsh
+[3.916s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.dsv
+[3.916s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/package.dsv
+[3.916s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/ament_index/resource_index/packages/my_first_package_msgs
+[3.916s] -- Old export file "/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_cExport-noconfig.cmake].
+[3.916s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_cExport.cmake
+[3.916s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.916s] -- Old export file "/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[3.916s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.916s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.916s] -- Old export file "/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[3.916s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.916s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.916s] -- Old export file "/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cExport-noconfig.cmake].
+[3.916s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cExport.cmake
+[3.916s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.916s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_cppExport.cmake
+[3.916s] -- Old export file "/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[3.916s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.916s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.916s] -- Old export file "/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[3.916s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.916s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.916s] -- Old export file "/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cppExport-noconfig.cmake].
+[3.917s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cppExport.cmake
+[3.917s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.917s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_pyExport.cmake
+[3.917s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.917s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/rosidl_cmake-extras.cmake
+[3.917s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.917s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.917s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.917s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.917s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.917s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.917s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[3.917s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgsConfig.cmake
+[3.917s] -- Up-to-date: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgsConfig-version.cmake
+[3.917s] -- Installing: /home/jiu/Git-projects/dev_ws/ros/install/my_first_package_msgs/share/my_first_package_msgs/package.xml
+[3.919s] Invoked command in '/home/jiu/Git-projects/dev_ws/ros/build/my_first_package_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiu/Git-projects/dev_ws/ros/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --install /home/jiu/Git-projects/dev_ws/ros/build/my_first_package_msgs

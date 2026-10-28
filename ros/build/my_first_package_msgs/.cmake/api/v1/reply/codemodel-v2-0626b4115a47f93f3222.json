@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4e3d01883e0b31dfb80a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "my_first_package_msgs__py",
+					"jsonFile" : "directory-my_first_package_msgs__py-1a6c4b21f6c5cc5d9e3f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/jiu/Git-projects/dev_ws/ros/build/my_first_package_msgs/my_first_package_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "my_first_package_msgs__rs",
+					"jsonFile" : "directory-my_first_package_msgs__rs-e84cb6752687265a3dfd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/jiu/Git-projects/dev_ws/ros/build/my_first_package_msgs/my_first_package_msgs__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "my_first_package_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_my_first_package_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_my_first_package_msgs_egg-815a98dc1d2128758372.json",
+					"name" : "ament_cmake_python_build_my_first_package_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_my_first_package_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_my_first_package_msgs-6e003f51c54b55cb72ba.json",
+					"name" : "ament_cmake_python_copy_my_first_package_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_package_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_package_msgs-aaac3f7ebc21400b2bd2.json",
+					"name" : "my_first_package_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_package_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_package_msgs__cpp-32c63d9060c5fede0797.json",
+					"name" : "my_first_package_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "my_first_package_msgs__py::@5962aaa0314d67ede27d",
+					"jsonFile" : "target-my_first_package_msgs__py-6d8bf4840c0e8f77e31c.json",
+					"name" : "my_first_package_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_package_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_package_msgs__rosidl_generator_c-cc3aa4ec1432268e3c08.json",
+					"name" : "my_first_package_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_package_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_package_msgs__rosidl_generator_py-38455a17f24372ab4fa0.json",
+					"name" : "my_first_package_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_package_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_package_msgs__rosidl_generator_type_description-e49224b2e6935e5d38c1.json",
+					"name" : "my_first_package_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_package_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_package_msgs__rosidl_typesupport_c-1dcaa7e2a802a863d051.json",
+					"name" : "my_first_package_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_package_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_package_msgs__rosidl_typesupport_cpp-ecd5b58720fcd7d1c83f.json",
+					"name" : "my_first_package_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_package_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_package_msgs__rosidl_typesupport_fastrtps_c-187b1f042d84321157cb.json",
+					"name" : "my_first_package_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_package_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_package_msgs__rosidl_typesupport_fastrtps_cpp-1bf7137da3093b628c0e.json",
+					"name" : "my_first_package_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_package_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_package_msgs__rosidl_typesupport_introspection_c-b4746131b5309f66d247.json",
+					"name" : "my_first_package_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_package_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_package_msgs__rosidl_typesupport_introspection_cpp-4ee1c4110843623c9e2c.json",
+					"name" : "my_first_package_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "my_first_package_msgs__rs::@016c8287fd69cd0bd1fd",
+					"jsonFile" : "target-my_first_package_msgs__rs-441d363a9198da6c316b.json",
+					"name" : "my_first_package_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_package_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_package_msgs_s__rosidl_typesupport_c-cd2b0c00e85e29b838f3.json",
+					"name" : "my_first_package_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_package_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_package_msgs_s__rosidl_typesupport_fastrtps_c-958bb4bc649a206de19b.json",
+					"name" : "my_first_package_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_package_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_package_msgs_s__rosidl_typesupport_introspection_c-07e83b4f0f5fce25ba70.json",
+					"name" : "my_first_package_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_package_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_package_msgs_uninstall-d1d357952048fd2cd357.json",
+					"name" : "my_first_package_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4133c0df60e9c8bfb2e7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jiu/Git-projects/dev_ws/ros/build/my_first_package_msgs",
+		"source" : "/home/jiu/Git-projects/dev_ws/ros/src/my_first_package_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

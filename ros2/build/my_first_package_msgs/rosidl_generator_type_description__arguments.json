@@ -1,0 +1,7 @@
+{
+  "package_name": "my_first_package_msgs",
+  "output_dir": "/home/jiu/Git-projects/dev_ws/ros2/build/my_first_package_msgs/rosidl_generator_type_description/my_first_package_msgs",
+  "idl_tuples": [
+    "/home/jiu/Git-projects/dev_ws/ros2/build/my_first_package_msgs/rosidl_adapter/my_first_package_msgs:msg/CmdAndPoseVel.idl"
+  ]
+}
