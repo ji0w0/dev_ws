@@ -16,6 +16,9 @@
 /home/jiu/Git-projects/dev_ws/ros/install/my_first_package/lib/python3.12/site-packages/my_first_package/__pycache__/my_service_server.cpython-312.pyc
 /home/jiu/Git-projects/dev_ws/ros/install/my_first_package/share/ament_index/resource_index/packages/my_first_package
 /home/jiu/Git-projects/dev_ws/ros/install/my_first_package/share/my_first_package/package.xml
+/home/jiu/Git-projects/dev_ws/ros/install/my_first_package/share/my_first_package/launch/dist_turtle_action.launch.py
+/home/jiu/Git-projects/dev_ws/ros/install/my_first_package/share/my_first_package/launch/turtlesim_and_teleop.launch.xml
+/home/jiu/Git-projects/dev_ws/ros/install/my_first_package/share/my_first_package/launch/turtlesim_and_teleop.launch.py
 /home/jiu/Git-projects/dev_ws/ros/install/my_first_package/lib/python3.12/site-packages/my_first_package-0.0.0-py3.12.egg-info/SOURCES.txt
 /home/jiu/Git-projects/dev_ws/ros/install/my_first_package/lib/python3.12/site-packages/my_first_package-0.0.0-py3.12.egg-info/requires.txt
 /home/jiu/Git-projects/dev_ws/ros/install/my_first_package/lib/python3.12/site-packages/my_first_package-0.0.0-py3.12.egg-info/top_level.txt

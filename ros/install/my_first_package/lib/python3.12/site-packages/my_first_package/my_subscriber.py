@@ -24,7 +24,6 @@ def main(args = None):
     turtlesim_subscriber = TurtlesimSubscriber()
     rp.spin(turtlesim_subscriber)
 
-    # 노드 종료
     turtlesim_subscriber.destroy_node()
     rp.shutdown()
 

@@ -6,7 +6,6 @@ from my_first_package_msgs.msg import CmdAndPoseVel
 
 
 class CmdAndPose(Node):
-
     def __init__(self):
         super().__init__("turtle_cmd_pose")
         self.sub_pose = self.create_subscription(
@@ -43,6 +42,7 @@ def main(args=None):
 
     turtle_cmd_pose_node.destroy_node()
     rp.shutdown()
+
 
 if __name__ == "__main__":
     main()

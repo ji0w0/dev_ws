@@ -1,0 +1,36 @@
+[0.775s] Invoking command in '/home/jiu/Git-projects/dev_ws/ros/src/my_first_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jiu/Git-projects/dev_ws/ros/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jiu/Git-projects/dev_ws/ros/install/my_first_package/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/jiu/Git-projects/dev_ws/ros/build/my_first_package/build install --record /home/jiu/Git-projects/dev_ws/ros/build/my_first_package/install.log --install-scripts $base/lib/my_first_package --single-version-externally-managed install_data
+[0.969s] running egg_info
+[0.984s] writing ../../build/my_first_package/my_first_package.egg-info/PKG-INFO
+[0.984s] writing dependency_links to ../../build/my_first_package/my_first_package.egg-info/dependency_links.txt
+[0.984s] writing entry points to ../../build/my_first_package/my_first_package.egg-info/entry_points.txt
+[0.984s] writing requirements to ../../build/my_first_package/my_first_package.egg-info/requires.txt
+[0.984s] writing top-level names to ../../build/my_first_package/my_first_package.egg-info/top_level.txt
+[1.014s] reading manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[1.014s] writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[1.014s] running build
+[1.014s] running build_py
+[1.014s] copying my_first_package/turtle_cmd_and_pose.py -> /home/jiu/Git-projects/dev_ws/ros/build/my_first_package/build/lib/my_first_package
+[1.015s] copying my_first_package/dist_turtle_action_server.py -> /home/jiu/Git-projects/dev_ws/ros/build/my_first_package/build/lib/my_first_package
+[1.015s] copying my_first_package/my_subscriber.py -> /home/jiu/Git-projects/dev_ws/ros/build/my_first_package/build/lib/my_first_package
+[1.015s] running install
+[1.019s] running install_lib
+[1.034s] copying /home/jiu/Git-projects/dev_ws/ros/build/my_first_package/build/lib/my_first_package/turtle_cmd_and_pose.py -> /home/jiu/Git-projects/dev_ws/ros/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[1.034s] copying /home/jiu/Git-projects/dev_ws/ros/build/my_first_package/build/lib/my_first_package/dist_turtle_action_server.py -> /home/jiu/Git-projects/dev_ws/ros/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[1.034s] copying /home/jiu/Git-projects/dev_ws/ros/build/my_first_package/build/lib/my_first_package/my_subscriber.py -> /home/jiu/Git-projects/dev_ws/ros/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[1.034s] byte-compiling /home/jiu/Git-projects/dev_ws/ros/install/my_first_package/lib/python3.12/site-packages/my_first_package/turtle_cmd_and_pose.py to turtle_cmd_and_pose.cpython-312.pyc
+[1.035s] byte-compiling /home/jiu/Git-projects/dev_ws/ros/install/my_first_package/lib/python3.12/site-packages/my_first_package/dist_turtle_action_server.py to dist_turtle_action_server.cpython-312.pyc
+[1.036s] byte-compiling /home/jiu/Git-projects/dev_ws/ros/install/my_first_package/lib/python3.12/site-packages/my_first_package/my_subscriber.py to my_subscriber.cpython-312.pyc
+[1.036s] running install_data
+[1.036s] running install_egg_info
+[1.052s] removing '/home/jiu/Git-projects/dev_ws/ros/install/my_first_package/lib/python3.12/site-packages/my_first_package-0.0.0-py3.12.egg-info' (and everything under it)
+[1.052s] Copying ../../build/my_first_package/my_first_package.egg-info to /home/jiu/Git-projects/dev_ws/ros/install/my_first_package/lib/python3.12/site-packages/my_first_package-0.0.0-py3.12.egg-info
+[1.053s] running install_scripts
+[1.150s] Installing dist_turtle_action_server script to /home/jiu/Git-projects/dev_ws/ros/install/my_first_package/lib/my_first_package
+[1.150s] Installing my_first_node script to /home/jiu/Git-projects/dev_ws/ros/install/my_first_package/lib/my_first_package
+[1.150s] Installing my_multi_thread script to /home/jiu/Git-projects/dev_ws/ros/install/my_first_package/lib/my_first_package
+[1.150s] Installing my_publisher script to /home/jiu/Git-projects/dev_ws/ros/install/my_first_package/lib/my_first_package
+[1.150s] Installing my_service_server script to /home/jiu/Git-projects/dev_ws/ros/install/my_first_package/lib/my_first_package
+[1.150s] Installing my_subscriber script to /home/jiu/Git-projects/dev_ws/ros/install/my_first_package/lib/my_first_package
+[1.150s] Installing turtle_cmd_and_pose script to /home/jiu/Git-projects/dev_ws/ros/install/my_first_package/lib/my_first_package
+[1.151s] writing list of installed files to '/home/jiu/Git-projects/dev_ws/ros/build/my_first_package/install.log'
+[1.169s] Invoked command in '/home/jiu/Git-projects/dev_ws/ros/src/my_first_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jiu/Git-projects/dev_ws/ros/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jiu/Git-projects/dev_ws/ros/install/my_first_package/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/jiu/Git-projects/dev_ws/ros/build/my_first_package/build install --record /home/jiu/Git-projects/dev_ws/ros/build/my_first_package/install.log --install-scripts $base/lib/my_first_package --single-version-externally-managed install_data

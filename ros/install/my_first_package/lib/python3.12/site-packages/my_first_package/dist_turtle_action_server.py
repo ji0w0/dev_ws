@@ -9,8 +9,12 @@ from geometry_msgs.msg import Twist
 from my_first_package_msgs.action import DistTurtle
 from my_first_package.my_subscriber import TurtlesimSubscriber
 
+from rcl_interfaces.msg import SetParametersResult
+from rcl_interfaces.msg import ParameterDescriptor, FloatingPointRange
+
 import math
 import time
+
 
 class TurtleSub_Action(TurtlesimSubscriber):
     def __init__(self, ac_server):
@@ -20,6 +24,7 @@ class TurtleSub_Action(TurtlesimSubscriber):
     def callback(self, msg):
         self.ac_server.current_pose = msg
 
+
 class DistTurtleServer(Node):
     def __init__(self):
         super().__init__('dist_turtle_action_server')
@@ -28,7 +33,50 @@ class DistTurtleServer(Node):
         self.current_pose = Pose()
         self.previous_pose = Pose()
         self.publisher = self.create_publisher(Twist, '/turtle1/cmd_vel', 10)
-        self.action_server = ActionServer(self, DistTurtle, 'dist_turtle', self.excute_callback)
+        self.action_server = ActionServer(
+            self, DistTurtle, 'dist_turtle', self.excute_callback
+        )
+
+        self.get_logger().info('Dist turtle action sercer is started.')
+
+        param_desc_quantile = ParameterDescriptor(
+            description = 'qualtile_time description',
+            floating_point_range = [FloatingPointRange(
+                from_value = 0.0,
+                to_value = 1.0,
+                step = 0.01
+            )]
+        )
+
+        self.declare_parameter("quantile_time", 0.75, param_desc_quantile)
+        self.declare_parameter("almost_goal_time", 0.95)
+
+        (quantile_time, almosts_time) = self.get_parameters(
+            ["quantile_time", "almost_goal_time"]
+        )
+        self.quantile_time = quantile_time.value;
+        self.almosts_time = almosts_time.value;
+
+        output_msg = "quantile_time is " + str(self.almosts_time) + "."
+        output_msg = output_msg + "and almost_goal_time is " + str(self.almosts_time) + "."
+        self.get_logger().info(output_msg)
+
+        self.add_on_set_parameters_callback(self.parameter_callback)
+
+    def parameter_callback(self, params):
+        for param in params:
+            print(param.name, " is changed to ", param.value)
+
+            if param.name == "quantile_time":
+                self.quantile_time = param.value
+            if param.name == "almost_goal_time":
+                self.almosts_time = param.value
+
+        output_msg = "quantile_time is " + str(self.almosts_time) + "."
+        output_msg = output_msg + "and almost_goal_time is " + str(self.almosts_time) + "."
+        self.get_logger().info(output_msg)
+
+        return SetParametersResult(successful=True)
 
     def calc_diff_pose(self):
         if self.is_first_time:
@@ -55,14 +103,23 @@ class DistTurtleServer(Node):
             feedback_msg.remained_dist = goal_handle.request.dist - self.total_dist
             goal_handle.publish_feedback(feedback_msg)
             self.publisher.publish(msg)
+
+            tmp = feedback_msg.remained_dist - goal_handle.request.dist * self.quantile_time
+            tmp = abs(tmp)
+
+            if tmp < 0.02:
+                output_msg = 'The turtle passes the ' + str(self.quantile_time) + ' point.'
+                output_msg = output_msg + ' : ' + str(tmp)
+                self.get_logger().info(output_msg)
+
             time.sleep(0.01)
 
             if feedback_msg.remained_dist < 0.2:
                 break
 
         goal_handle.succeed()
-        result = DistTurtle.Result()
 
+        result = DistTurtle.Result()
         result.pos_x = self.current_pose.x
         result.pos_y = self.current_pose.y
         result.pos_theta = self.current_pose.theta
