@@ -334,6 +334,7 @@ systemd-python==235
 teleop-twist-keyboard==2.4.1
 terminado==0.17.1
 terminator==2.1.3
+tf-transformations==1.1.1
 tf2-geometry-msgs==0.36.23
 tf2-kdl==0.36.23
 tf2-msgs==0.36.23
@@ -347,6 +348,7 @@ topic-monitor==0.33.11
 tornado==6.4
 traitlets==5.5.0
 trajectory-msgs==5.3.8
+transforms3d==0.4.1
 turtlesim==1.8.4
 type-description-interfaces==2.0.4
 types-aiofiles==23.2
